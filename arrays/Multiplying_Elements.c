@@ -14,7 +14,6 @@ int main(){
     int fact_r[n_elements];
     for(int i = 0; i < n_elements; i++){
         fact_r[i] = elements[i] * fact;
-        // printf("resulting arr :");
         printf("resulting arr : %d\n", fact_r[i]);
     }
 }
